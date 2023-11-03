@@ -75,6 +75,12 @@ body {
   margin-left: auto;
 }
 
+.change-link:hover {
+  color: hsla(245, 75%, 52%, 0.7);
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
 .btn {
   border: none;
   background-color: inherit;
@@ -91,8 +97,20 @@ body {
   padding: 1rem 0;
 }
 
+.payment-btn:hover {
+  background-color: hsla(245, 75%, 52%, 0.7);
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
 .cancel-btn {
   color: inherit;
+}
+
+.cancel-btn:hover {
+  color: hsl(223, 47%, 23%);
+  cursor: pointer;
+  transition: color 0.2s ease;
 }
 
 .attribution {
