@@ -128,6 +128,11 @@ body {
 }
 
 @media only screen and (max-width: 450px) {
+  body {
+    background: top / 150% repeat-x hsl(225, 100%, 94%)
+      url(./images/pattern-background-mobile.svg);
+  }
+
   .order-summary-card {
     max-width: 300px;
   }
