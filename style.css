@@ -23,6 +23,7 @@ body {
 .order-summary-card {
   background-color: hsl(225, 100%, 98%);
   border-radius: 20px;
+  box-shadow: 0 50px 30px -25px hsla(245, 75%, 52%, 0.18);
   margin: auto;
   max-width: 450px;
   overflow: hidden;
